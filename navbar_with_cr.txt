@@ -1,0 +1,41 @@
+function ExpCon(wanted) {
+var btns = document.querySelectorAll("button.b0, button.b1");
+for (var i = 0 ; i < btns.length; i++) {
+oc = btns[i].getAttribute("onclick");
+if (!oc.includes("Togl")) continue;
+arr = oc.substring(12, oc.length - 1).split(",");
+div = document.getElementById(arr[1]);
+ShowHide (btns[i],div,arr[2],wanted);
+}
+return false;
+}
+function clk(element) {
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "flex";
+}
+document.write('<div class="navbar">  
+<a href="index.html">Introduction</a>
+<a href="fundament.html">Fundamentals</a>
+<a href="emerald.html">Emerald Tablet</a>
+<a href="cycles.html">Cycles and Phases</a></a>
+<a href="identity.html">Identity</a>
+<a href="daimon.html">Daimons</a>
+<a href="epoch.html">Prenatal Epoch</a>
+
+<div class="drop">
+<button class="drop-btn">more</button>
+<div class="drop-content">
+<a href="hbs.html">An Earlier Schneider Story</a>
+<a href="ben_and_alma.html">Ben and Alma Schneider</a>
+<hr>
+<a href="german.html">Who left Germany</a>
+<a href="british.html">Who left Britain</a>
+<hr>
+<a href="ships.html">Ships to Brisbane 1860s</a>
+<a href="resources.html">Resources</a>
+</div>
+</div>
+</div>
+<div id="modal01" class="modal" onclick=\'this.style.display="none"\'>
+<div class="modal-content">  <img src="res/blank.gif" id="img01" alt=""> </div>
+</div>')
