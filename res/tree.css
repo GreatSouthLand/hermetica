@@ -1,0 +1,158 @@
+
+.tree {
+	background-color: #f8f8f8;
+	padding: 4px 12px 4px 6px;
+	border: #d0d0d0 solid 1px;
+	border-radius: 5px;
+	float: left; 
+	width: auto; 
+	margin: 10px 0px 10px 0px;
+	max-width: 940px;
+	overflow-x: auto;
+	font: inherit;
+	font-size:14px;
+}
+
+.tree ul {
+	padding-left: 15px; 
+	position: relative;
+	display: table;
+}
+
+.tree li {
+	list-style-type: none;
+	position: relative;
+	padding: 2px 0px 2px 16px;
+	display: flex;
+	transition: all 0.5s;
+}
+
+.tree li a {
+	border: 2px solid #ccc;
+	padding: 3px;
+	text-decoration: none;
+	color: #444;
+	align-self: center;
+	border-radius: 6px;
+	background: #f5f7ec;
+	width: 260px;
+}
+
+.tree li img {
+	float:left;
+	width:4.4em;
+	height:4.4em;
+	margin:1px;
+	vertical-align:top;
+	border: #c0c0c0 solid 2px;
+	border-radius: 5px;
+}
+
+.tree > * {
+	font: inherit;
+}
+
+.narrow li a {
+	width: auto;
+	text-align:center;
+	padding: 2px 5px 3px 5px;
+	margin-top:0px;
+	line-height: 130%;
+}
+
+.fouracross li a {
+	width: 185px;
+	text-align:center;
+	padding:0px;
+}
+
+.fouracross li a p {
+	padding-top:1em;
+}
+
+.tree li::before, 
+.tree li::after {
+	content: '';
+	position: absolute; 
+	left: 0; 
+	bottom: 50%;
+	border-left: 2px solid #ccc;
+	width: 15px; 
+	height: 50%;
+}
+
+.tree li::after {
+	bottom: auto; 
+	top: 50%;
+	border-top: 2px solid #ccc;
+}
+
+.tree li:only-child::after, 
+.tree li:only-child::before {
+	display: none;
+}
+
+.tree li:only-child {
+    padding-left: 0;
+}
+
+.tree li:first-child::before, 
+.tree li:last-child::after {
+	border: 0 none;
+}
+
+.tree li:last-child::before {
+	border-bottom: 2px solid #ccc;
+	border-radius: 0 0 5px 0;
+}
+
+.tree li:first-child::after {
+	border-radius: 0 0 0 5px;
+}
+
+.tree ul ul::before {
+	content: '';
+	position: absolute; 
+	left: 0; 
+	top: 50%;
+	border-top: 2px solid #ccc;
+	width: 15px; 
+	height: 0;
+}
+
+.tree ul ul:first-child::before {
+	border: 0 none;
+}
+
+.tree ul:first-child {
+	padding-left: 5px;
+	width: 60px;
+}
+
+.tree li a:hover {
+	background: #c8e088;
+	color: #000; 
+	border: 2px solid #94a0b4;
+}
+
+.tree li a:hover+ul li a {
+	background: #e8f8d8;
+	color: #000; 
+	border: 2px solid #94a0b4;
+}
+
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before {
+	border-color: #94a0b4;
+}
+
+@media print {
+	.tree, .tree li a, #ancestors {
+		background-image: none;
+		background: none;
+		background-color: white;
+		margin: 0px;
+		}
+}
