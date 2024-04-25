@@ -475,7 +475,7 @@ hr {
 }
 
 /* container boxes with outlines, placed center, left or right */
-.cbox, .lbox, .rbox, .lboxc, .rboxc, .row, .quote {
+.cbox, .lbox, .rbox, .lboxc, .rboxc, .row, .quote, .infobox {
 	/*page-break-inside: avoid !important;*/
 	background-color: #f8f8f8;
 	border: #d0d0d0 solid 1px;
@@ -518,12 +518,11 @@ hr {
 	margin: 20px 0px 20px 0px;
 }
 
-.quote { /* larger cursive green and framed */
-	font: 1.15em/1.6 Georgia, "Times New Roman", Times, Garamond, ui-serif, serif; 
+.quote { /* larger green and framed */
+	font: 1.2em/1.6 "arial", sans-serif;
 	color:#507010;
 	letter-spacing:1px;
-	text-align:center; 
-	padding:20px 25px 20px 20px;
+	padding:15px 25px 15px 15px;
 	}
 .quote span { /* very large e.g. for first letter */
 	font-size: 2em;
@@ -532,15 +531,14 @@ hr {
 	margin-right: -2px;
 	}
 .quote p { /* normal */
-	font: 15px/1.5 "arial", sans-serif;
-	color: #4d5051;
+	font-size: 0.8em;
 	letter-spacing:normal;
-	margin-top:14px;
+	margin-top:10px;
 	}
-
 .quotebox {
-	padding: 10px 20px 10px 20px;;
+	padding: 10px 20px 10px 20px;
 }
+
 
 /* image on left side of container, for text on right */
 .limg {
