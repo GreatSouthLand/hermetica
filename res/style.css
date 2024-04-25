@@ -672,8 +672,7 @@ hr {
 /* font size and padding for all elements but see drop button */
 .navbar a, .drop .drop-btn {
 	font:inherit;
-	font-size: clamp(12px, 16px, 22px);
-	padding: 4px 10px;
+	padding: 2px 10px;
 }
 
 /* drop button */
