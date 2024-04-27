@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hermeticalia</title>
+  <title>Prenatal Epoch</title>
   <meta name="description" content="A Family History">
   <meta name="keywords" content="keyword1, keyword2, keyword3">
   <link href="res/style.css" rel="stylesheet" type="text/css">
@@ -47,6 +47,29 @@ This descending sequence alludes to an inverse operation – one in which the so
 <br>
 
 Written By Jaime Paul Lamb
+
+<br><br>
+
+
+<h5>get estimated epoch</h5>
+
+<pre>
+get estimated epoch's asc and moon
+waxing birth moon: birth moon lon = epoch1 ASC  lon  (ASC = MOON)
+                   birth ASC  lon = epoch1 moon lon  (MOON = ASC)
+waning birth moon: birth moon lon = epoch1 DESC lon  (ASC = MOON + 180)
+                   birth DESC lon = epoch1 moon lon  (MOON = ASC + 180)
+		           
+tropical month: 27.321582241 days on 1.1.2000 incr. 0.013s per century
+360°/27.321582241 = 13.176396477 degrees per day
+but using 13.162 because:
+over 268.1738147210756 days, too short by 6h 58m (418m)
+over 273.85434728529464 days, too short by 9h 3m (543m)
+div    = 13.162; // 13.176396477
+days   = (360 * 9 + atm + 180*(more+below))/div;
+epoch1 = pc->tjd - days;
+
+</pre>
 
 
 
