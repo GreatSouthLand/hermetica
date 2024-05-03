@@ -76,6 +76,8 @@ waxing birth moon: birth moon lon = epoch1 ASC  lon  (ASC = MOON)
 waning birth moon: birth moon lon = epoch1 DESC lon  (ASC = MOON + 180)
                    birth DESC lon = epoch1 moon lon  (MOON = ASC + 180)
 		           
+data used
+-----------------------------------------------------------------
 tropical month: 27.321582241 days on 1.1.2000 incr. 0.013s per century
 360°/27.321582241 = 13.176396477 degrees per day
 but using 13.162 because:
@@ -84,6 +86,34 @@ over 273.85434728529464 days, too short by 9h 3m (543m)
 div    = 13.162; // 13.176396477
 days   = (360 * 9 + atm + 180*(more+below))/div;
 epoch1 = pc->tjd - days;
+
+
+output from astroboy:
+-----------------------------------------------------------------
+     1  waxing 0  below 1  more 0  atm 125.73  days 269.39
+  root  15.02.1957  00:01:58.0 ut
+  root  asc 24°44'53.2"Ar  moon 00°28'55.1"Vi
+ epoch  asc 00°28'55.1"Pi  moon 24°44'53.2"Li
+
+     1  estimated epoch
+   aim  21.05.1956  14:37:53.2 ut
+   aim  asc 13°33'19.7"Pi  moon 25°16'50.7"Li
+
+     1  match epoch moon to aim
+   adj  21.05.1956  13:38:25.7 ut
+   adj  asc 00°28'41.9"Pi  moon 24°44'52.5"Li
+
+     1  match epoch asc to aim
+ epoch  21.05.1956  13:38:26.8 ut
+ epoch  asc 00°28'55.1"Pi  moon 24°44'53.0"Li
+
+     1  match root to epoch
+ root2  15.02.1957  00:01:58.0 ut
+ root2  asc 24°44'53.0"Ar  moon 00°28'55.1"Vi
+-----------------------------------------------------------------
+ root2  15.02.1957  00:01:58.0 ut
+ epoch  21.05.1956  13:38:26.8 ut
+
 
 </pre>
 
