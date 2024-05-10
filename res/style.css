@@ -56,12 +56,28 @@ h5, h6 {
 	margin-bottom:12px;
 }
 
+.title {
+	font:24px/1.5 Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.title span {
+	color: #698919; /* title green  #82ab01;  #729b01; #70a020; */
+}
+
+.green {
+	color: #608010; /* #003300; */
+}
+
 h3 b, h4 b, h5 b, h6 b {
-	color:#507010; /*dk green*/
+    /* color:#608020; */ /*green*/
+	/* color:#709030; */ /*green*/
+	color:#80a040; /*green*/
 }
 
 a, h2, h3 p, h4 p {
-	color:#608020; /*green*/
+	color:#709030;
 }
 
 a:hover, a:active, a:focus {
@@ -223,16 +239,6 @@ img.f-right {
 	float: left;
 }
 
-.title {
-	font:24px/1.5 Arial, Helvetica, sans-serif;
-	color: #000000;
-	margin-bottom: 30px;
-}
-
-.title span {
-	color: #82ab01;
-}
-
 ul.list1 {
 	margin-top: 5px;
 	margin-left: 25px;
@@ -262,10 +268,6 @@ ul.list1 li {
 
 .subtitle span {
 	color: #607e00;
-}
-
-.green {
-	color: #003300;
 }
 
 
@@ -476,7 +478,7 @@ hr {
 
 /* green header text for boxes */
 .rbox h6 {
-	color: #507010;
+	color: #709030;
 	padding-bottom:3px;
 	margin:0;
 	text-align:center;
@@ -529,7 +531,7 @@ hr {
 
 .quote { /* larger green and framed */
 	font: 1.2em/1.6 "arial", sans-serif;
-	color:#507010;
+	color:#709030;
 	letter-spacing:1px;
 	padding:15px 25px 15px 15px;
 	}
@@ -686,7 +688,7 @@ hr {
 
 /* background color for navbar links on hover */
 .navbar a:hover, .drop:hover .drop-btn {
-	background-color: #608020;
+	background-color: #709030;
 	color: white;
 }
 
@@ -728,7 +730,7 @@ hr {
 
 /* highlight a right-clicked menu item */
 .drop-content a:focus-within {
-    background: #608020;
+    background: #709030;
     color: white; 
     /*background: #f4d35e;*/ /* Senf */
     /*color: black;*/
