@@ -62,14 +62,14 @@ h5, h6 {
 	margin-bottom: 0px;
 }
 
+.title span {
+	color: #698919; /* title green  #82ab01;  #729b01; #70a020; */
+}
+
 .title2 {
 	font:20px/1.5 Arial, Helvetica, sans-serif;
 	color: #608010;
 	margin-bottom: -6px;
-}
-
-.title span {
-	color: #698919; /* title green  #82ab01;  #729b01; #70a020; */
 }
 
 .green {
