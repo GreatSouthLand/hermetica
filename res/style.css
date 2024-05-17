@@ -50,10 +50,17 @@ h4 {
 	font-size:150%;
 }
 
-h5, h6 {
+h5 {
 	font-size:125%;
 	margin-top:15px;
 	margin-bottom:12px;
+}
+
+h6 {
+	font-size:115%;
+	margin-top:15px;
+	margin-bottom:12px;
+	color: #608010;
 }
 
 .title {
@@ -536,7 +543,7 @@ hr {
 }
 
 .quote { /* larger green and framed */
-	font: 1.2em/1.6 "arial", sans-serif;
+	font: 1.1em/1.6 "arial", sans-serif;
 	color:#709030;
 	letter-spacing:1px;
 	padding:15px 25px 15px 15px;
