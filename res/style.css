@@ -65,12 +65,8 @@ h6 {
 
 .title {
 	font:24px/1.5 Arial, Helvetica, sans-serif;
-	color: #000000;
-	margin-bottom: 6px;
-}
-
-.title span {
-	color: #698919; /* title green  #82ab01;  #729b01; #70a020; */
+	color: #698919;
+	margin-bottom: 16px;
 }
 
 .title2 {
