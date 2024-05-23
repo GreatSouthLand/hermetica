@@ -15,24 +15,22 @@ document.getElementById("modal01").style.display = "flex";
 }
 document.write('<div class="navbar">  
 <a href="index.html">Introduction</a>
-<a href="fundament.html">Fundamentals</a>
-<a href="emerald.html">Emerald Tablet</a>
+<a href="fundament.html">Fundament</a>
+<a href="symbols.html">Symbols</a>
 <a href="cycles.html">Cycles and Phases</a></a>
 <a href="identity.html">Identity</a>
 <a href="daimon.html">Daimons</a>
+<a href="emerald.html">Emerald Tablet</a>
 <a href="epoch.html">Prenatal Epoch</a>
-
 <div class="drop">
 <button class="drop-btn">more</button>
 <div class="drop-content">
-<a href="hbs.html">An Earlier Schneider Story</a>
-<a href="ben_and_alma.html">Ben and Alma Schneider</a>
+<a href="timeline.html">Ancient World Timeline</a>
 <hr>
-<a href="german.html">Who left Germany</a>
-<a href="british.html">Who left Britain</a>
+<a href="case_e.html">A Case Study</a>
+<a href="case_d.html">Eine Fallstudie</a>
 <hr>
-<a href="ships.html">Ships to Brisbane 1860s</a>
-<a href="resources.html">Resources</a>
+<a href="astrofont.html">Free Astro Font</a>
 </div>
 </div>
 </div>
