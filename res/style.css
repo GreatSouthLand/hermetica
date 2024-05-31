@@ -17,20 +17,27 @@ body {
     src: url('Astronom.ttf');
 }
 
-.astro span {
-    font-family: 'Astronom', sans-serif;
-    }
-
 @font-face {
     font-family: 'Inconsolata';
     src: url('Inconsolata.ttf');
 }
+
+@font-face {
+    font-family: 'CascadiaCode';
+    src: url('CascadiaCode.ttf');
+}
+
+.astro span {
+    font-family: 'Astronom', sans-serif;
+    }
+
 .fixedwidth, pre {
-    font-family: 'Inconsolata';
+    /*font-family: 'Inconsolata';*/
+    font-family: 'CascadiaCode';
 	}
     
 pre {
-    font-size:115%;
+    font-size:100%;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
