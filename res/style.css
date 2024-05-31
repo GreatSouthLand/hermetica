@@ -27,19 +27,22 @@ body {
     src: url('CascadiaCode.ttf');
 }
 
+@font-face {
+    font-family: 'LiberationMono';
+    src: url('LiberationMono.ttf');
+}
+
 .astro span {
     font-family: 'Astronom', sans-serif;
     }
 
-.fixedwidth, pre {
+pre {
     /*font-family: 'Inconsolata';*/
-    font-family: 'CascadiaCode';
+    /*font-family: 'CascadiaCode';*/
+    font-family: 'LiberationMono';
+    font-size:90%;
 	}
     
-pre {
-    font-size:100%;
-}
-
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
 	margin: 0px;
