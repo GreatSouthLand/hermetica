@@ -17,15 +17,15 @@ body {
     src: url('Astronom.ttf');
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Inconsolata';
     src: url('Inconsolata.ttf');
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'CascadiaCode';
     src: url('CascadiaCode.ttf');
-}
+}*/
 
 @font-face {
     font-family: 'LiberationMono';
