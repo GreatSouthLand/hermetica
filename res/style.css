@@ -40,8 +40,13 @@ pre {
     /*font-family: 'Inconsolata';*/
     /*font-family: 'CascadiaCode';*/
     font-family: 'LiberationMono';
-    font-size:90%;
+    font-size: 50%;
 	}
+
+table td {
+    padding: 0px 4px 0px 4px;
+    text-align: center !important;
+    }
     
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
