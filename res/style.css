@@ -27,8 +27,6 @@ body {
     }
 
 pre {
-    /*font-family: 'Inconsolata';*/
-    /*font-family: 'CascadiaCode';*/
     font-family: 'LiberationMono';
     font-size: 50%;
 	}
@@ -72,6 +70,11 @@ h6 {
 	font-size: 115%;
 	margin-top: 15px;
 	margin-bottom: 12px;
+	color: #608010;
+}
+
+b span {
+	font-size: 115%;
 	color: #608010;
 }
 
