@@ -456,7 +456,6 @@ Yet the world is full of people who experience, and want to experience, somethin
 
 <div style="float:right; text-align: center; width:28%; margin:6px 0px 0px 20px;" >
 <img src="img/magic/epoch.jpg" alt="" class="modal-img" onclick="clk(this)" style="width:100%; border-radius: 8px;">
-<p>Hermetic Prenatal Epoch</p>
 </div>
 
 <h4><b>
@@ -474,7 +473,7 @@ The particular aphorism which is of interest is number fifty-one and generally r
 
 <br>
 
-<h5>Plato, the Daimon and Birth</h5>
+<h5><b>Plato, the Daimon and Birth</b></h5>
 
 <i>In the “Myth of Er,” which concludes the Republic, Plato outlines the process by which the discarnate soul is paired with its Daimon who guides its descent through the planetary spheres, as it takes on the planetary qualities corresponding to each sphere (such as the vices and virtues) and, finally, is coupled with a body at the pre-natal syzygy (the new or full moon immediately preceding birth) and is, finally, incarnated in the elemental/terrestrial sphere of Earth.<br>
 <br>
@@ -486,20 +485,20 @@ This descending sequence alludes to an inverse operation – one in which the so
 <br>
 
 
-<h5>Calculation of the Prenatal Epoch</h5>
+<h5><b>Calculation of the Prenatal Epoch</b></h5>
 
 The 51st Centiloquium of Ptolemy describes it thus:
 “In what sign the Moon is at the time of birth, make that sign the ascendant in conception; and in what sign she is found at the conception, make that or its opposite the sign ascending at the birth.” 
 	
 
-<h5>Getting estimated epoch</h5>
+<h5><b>Getting the estimated epoch</b></h5>
 
 <pre>
-first get the estimated epoch's asc and moon
-waxing birth moon: birth moon lon = epoch1 ASC  lon  (ASC = MOON)
-                   birth ASC  lon = epoch1 moon lon  (MOON = ASC)
-waning birth moon: birth moon lon = epoch1 DESC lon  (ASC = MOON + 180)
-                   birth DESC lon = epoch1 moon lon  (MOON = ASC + 180)
+first get the longitude (lon) of estimated epoch's ascendant (asc) and moon
+waxing birth moon: birth moon lon = epoch1 ASC  lon  ( so ASC = MOON)
+                   birth ASC  lon = epoch1 moon lon  (and MOON = ASC)
+waning birth moon: birth moon lon = epoch1 DESC lon  ( so ASC = MOON + 180)
+                   birth DESC lon = epoch1 moon lon  (and MOON = ASC + 180)
 		           
 data used
 -----------------------------------------------------------------
@@ -513,7 +512,7 @@ days   = (360 * 9 + atm + 180*(more+below))/div;
 epoch1 = pc->tjd - days;
 
 
-output from astroboy:
+output from program astroboy:
 -----------------------------------------------------------------
      1  waxing 0  below 1  more 0  atm 125.73  days 269.39
   root  15.02.1957  00:01:58.0 ut
