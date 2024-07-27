@@ -31,7 +31,12 @@ pre {
 	}
 
 table td {
-    padding: 0px 4px 0px 4px;
+    padding: 0px 10px 0px 10px;
+    }
+
+.align td {
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
     }
     
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
@@ -80,7 +85,7 @@ b span {
 .title {
 	font: 26px Arial, Helvetica, sans-serif;
 	color: #698919;
-	margin-bottom: 10px;
+	margin-bottom: 16px;
 	font-weight: 500;
 }
 
