@@ -446,6 +446,15 @@ img {
 	padding: 6px 6px 2px 10px;
 	margin: 0px 0px 14px 12px;
 	}
+.inri {
+	page-break-inside: avoid !important;
+}
+
+.inri td {
+	padding-left: 2px;
+	padding-right: 10px;
+}
+
 */
 .shadowed {
 	box-shadow: 7px 7px 7px -5px  rgba(50, 50, 50, 0.5);
@@ -454,15 +463,6 @@ img {
 .double {
 	border: #d0d0d0 double 3px;
 	margin-right: 10px;
-}
-
-.inri {
-	page-break-inside: avoid !important;
-}
-
-.inri td {
-	padding-left: 2px;
-	padding-right: 10px;
 }
 
 td {
@@ -578,15 +578,26 @@ hr {
 	line-height: 1em;
 	margin-right: -2px;
 	}
-.quote p { /* normal */
+.quote p {
 	font-size: 0.8em;
-	letter-spacing:normal;
-	margin-top:10px;
+	letter-spacing: normal;
+	margin-top: 10px;
 	}
 .quotebox {
 	padding: 10px 20px 10px 20px;
 }
 
+.quo { /* for quoting book texts */
+	margin: 6px 60px 8px 20px; 
+	color: #587810;
+	}
+.qbr { /* low line break for quoting book texts */
+    height:1px;
+    width: 100%;
+    border:0; 
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+	}
 
 /* image on left side of container, for text on right */
 .limg {
