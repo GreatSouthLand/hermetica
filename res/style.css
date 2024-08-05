@@ -27,7 +27,7 @@ body {
 	margin: 0px auto;
 }
 .main, .header, .header-top, .header-bottom {
-	width: calc(100% - 0px); /*1000px;*/
+	width: calc(100%); /*1000px;*/
 	float: left;
 }
 .content {
@@ -41,7 +41,7 @@ body {
 	padding: 30px 25px 4px 25px;
 }
 .row1 {
-	width: calc(100% - 2px); /*952px;*/
+	width: calc(100%); /*952px;*/
 	float: left;
 }
 .row2 { /* about */
@@ -372,7 +372,7 @@ hr {
     margin-top: 8px;
     margin-bottom: 18px;
     height: 1px;
-    width: auto;
+    width: 100%;
 }
 .shaded {
 	border:none;
@@ -380,20 +380,20 @@ hr {
 	box-shadow: 0 20px 20px -20px #888;
 	margin: -20px auto 20px; 
 	height: 50px;
-	width: auto;
+    width: 100%;
 }
 .leaf  {
     background: url(hr1.png) no-repeat center;
     height: 50px;
     border: none;
-    width: auto;
+    width: 100%;
 }
 .blank  {
     background: url(blank.gif) no-repeat center;
     height: 6px;
     border: none;
     margin: 0px;
-    width: auto;
+    width: 100%;
 }
 .h10  {
     height: 10px;
