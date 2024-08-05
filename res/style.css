@@ -12,6 +12,137 @@ body {
 	margin: 0px;
 }
 
+
+
+
+.page-in {
+	background-image: url(bottom-rept.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	width: 100%;
+	float: left;
+}
+.page {
+	width: calc(100% - 60px); /*1000px;*/
+	margin: 0px auto;
+}
+.main, .header, .header-top, .header-bottom {
+	width: calc(100% - 0px); /*1000px;*/
+	float: left;
+}
+.content {
+	width: calc(100% - 50px); /*940px;*/
+	background-color: #FFFFFF;
+	background-image: url(body-top.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 30px;
+	float: left;
+	padding: 30px 25px 4px 25px;
+}
+.row1 {
+	width: calc(100% - 2px); /*952px;*/
+	float: left;
+}
+.row2 { /* about */
+	width: calc(100% - 30px); /*920px;*/
+	float: left;
+	padding: 15px 15px 15px 15px;
+	background: #f5f7ec; /*pale green*/
+	border-radius: 15px;
+}
+.footer {
+	width: calc(100% - 48px); /*952px;*/
+	line-height: 69px;
+	background-image: url(footer.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 92px;
+	height: 69px;
+	float: left;
+	padding: 23px 24px 0px 24px;
+}
+
+
+
+.header-top {
+	background-image: url(header-top.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 81px;
+	height: 80px;
+}
+.header-top h1 {
+	font:50px "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	margin-left: 115px;
+	margin-top:10px;
+}
+.header-top h1 span {
+	color: #000000;
+}
+
+.header-top h1 a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.header-top h1 span a {
+	color: #000000;
+	text-decoration:none;
+}
+.header-bottom {
+	background-image: url(header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 257px;
+	height: 257px;
+}
+.header-bottom h2 {
+	font:24px/1.5 Arial, Helvetica, sans-serif;
+	color: #FFbb33;
+	margin-top: 92px;
+	margin-left: 27px;
+}
+.header-bottom h3 {
+	font:19px/1.5 Arial, Helvetica, sans-serif;
+	color: #FFbb33;
+	margin-top: 0px;
+	margin-left: 29px;
+}
+.header-bottom h5 {
+	font:4px/0.1 Arial, Helvetica, sans-serif;
+	color: #bb7700;
+	margin-top: 30px;
+	margin-right: 29px;
+	text-align: right;
+}
+
+
+.footer p {
+	font-size: 11px;
+	color: #FFFFFF;
+	float: left;
+}
+.footer a {
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: none;
+}
+
+
+
+.fambase {
+	width: calc(100%x - 80px); /*920px;*/
+	padding: 16px; 
+	margin: 20px 0px 20px 0px;
+}
+
+
+
+
 @font-face {
     font-family: 'Astronom';
     src: url('Astronom.ttf');
@@ -113,52 +244,30 @@ a, h2, h3 p, h4 p {
 	color: #709030;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:hover, a:active, a:focus {
 	color: #0055B8; /*dk blue*/
 }
 
+
 img.f-flag {
 	margin: 15px 0px 15px 15px;
 	float: left !important;
-	width: 10%;
+	width: 100px; /*10%;*/
 }
-
 img.f-left {
 	margin: 5px 15px 0px 0px;
 }
-
 img.f-right {
 	margin: 5px 0px 0px 15px;
 }
 
-/*
-.articles {
-	margin: 0;
-	list-style: none;
-}
-
-.articles h2 {
-	margin: 0;
-}
-
-.articles h2 a {
-	text-decoration: none;
-}
-
-.articles .article-info {
-	padding-bottom: 0px;
-	margin-bottom: 10px;
-}
-
-.articles .article-info p {
-	margin: 0;
-}
-*/
-
 .f-left {
 	float: left !important;
 }
-
 .f-right {
 	float: right !important;
 }
@@ -170,174 +279,36 @@ img.f-right {
 .t-center {
 	text-align: center !important;
 }
-
 .t-right {
 	text-align: right !important;
 }
-
 .t-justify {
 	text-align:justify !important;
 }
 
 
-.page-in {
-	background-image: url(bottom-rept.jpg);
-	background-repeat: repeat-x;
-	background-position: left bottom;
-	width: 100%;
-	float: left;
-}
 
-.page {
-	width: 1000px;
-	margin: 0px auto;
-}
-
-.main, .header {
-	width: 1000px;
-	float: left;
-}
-
-.header-top {
-	background-image: url(header-top.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 1000px;
-	height: 80px;
-	float: left;
-}
-
-.header-top h1 {
-	font:50px "Times New Roman", Times, serif;
-	color: #FFFFFF;
-	margin-left: 115px;
-	margin-top:10px;
-}
-
-.header-top h1 span {
-	color: #000000;
-}
-
-.header-top h1 a {
-	color: #FFFFFF;
-	text-decoration:none;
-}
-
-.header-top h1 span a {
-	color: #000000;
-	text-decoration:none;
-}
-
-.header-bottom {
-	background-image: url(header.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 1000px;
-	height: 257px;
-	float: left;
-}
-
-.header-bottom h2 {
-	font:24px/1.5 Arial, Helvetica, sans-serif;
-	color: #FFbb33;
-	margin-top: 92px;
-	margin-left: 27px;
-}
-
-.header-bottom h3 {
-	font:19px/1.5 Arial, Helvetica, sans-serif;
-	color: #FFbb33;
-	margin-top: 0px;
-	margin-left: 29px;
-}
-
-.header-bottom h5 {
-	font:4px/0.1 Arial, Helvetica, sans-serif;
-	color: #bb7700;
-	margin-top: 30px;
-	margin-right: 29px;
-	text-align: right;
-}
-
-.content {
-	background-color: #FFFFFF;
-	background-image: url(body-top.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 940px;
-	float: left;
-	padding: 30px 35px 4px 25px;
-}
-
-.row1 {
-	width: 952px;/*710px;*/
-	float: left;
-}
 
 ul.list1 {
 	margin-top: 5px;
 	margin-left: 25px;
 	list-style-image: url(bullet.jpg);
 }
-
 ul.list1 li {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
 
-/* about us */
-.row2 {
-	width: 920px;/*680px;*/
-	float: left;
-	padding: 15px 15px 15px 15px;
-	background: #f5f7ec; /*pale green*/
-	border-radius: 15px;
-}
-
 .subtitle {
 	font:18px/1.5 Arial, Helvetica, sans-serif;
 	color: #171817;
 	margin-bottom: 10px;
 }
-
 .subtitle span {
 	color: #607e00;
 }
 
-
-a {
-	text-decoration: none;
-}
-
-
-/* nav bar at bottom of page */
-.footer {
-	line-height: 69px;
-	background-image: url(footer.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 952px;
-	height: 69px;
-	float: left;
-	padding: 23px 24px 0px 24px;
-}
-
-.footer p {
-	font-size: 11px;
-	color: #FFFFFF;
-	float: left;
-}
-
-.footer a {
-	font-size: 11px;
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-.footer a:hover {
-	text-decoration: none;
-}
 
 
 table {
@@ -376,86 +347,10 @@ table {
 	color:#004B96;
 }
 
-
-
-/* containers for images and text and tables */
-/*
-.gtop {
-	width:100%;
-	margin: 20px 0 16px 0;
-	page-break-inside: avoid !important;
-}
-
-.gto {
-	width:100%;
-	margin: 20px 0 16px 0;
-}
-
-.geni {
-	width:95%;
-	margin: 16px 0 16px 30px;
-	page-break-inside: avoid !important;
-}
-
-.gen {
-	width:95%;
-	margin: 16px 0 16px 5%;
-}
-*/
-
 img {
 	page-break-inside: avoid  !important;
 }
-/*
-.family {
-	width: 100%; 
-}
 
-.family td {
-	padding: 4px 0px 4px 0px;
-	border-top: 1px solid #d0d0d0;
-}
-
-.family td:first-child, 
-.family td:last-child {
-    padding-left: 12px;
-    padding-right: 3px;
-    }
-
-.family td:nth-child(2) {
-	padding-left: 9px;
-    text-align:right;
-    }
-    
-.family td:nth-child(3) {
-    padding-left: 3px;
-    }
-   
-.family td:nth-child(4) {
-    padding-left: 12px;
-    }
-
-.indent td {
-	padding-left: 12px;
-	padding-right: 0px;
-}
-
-.kids {
-	border: #d0d0d0 solid 1px;
-	border-radius: 5px;
-	padding: 6px 6px 2px 10px;
-	margin: 0px 0px 14px 12px;
-	}
-.inri {
-	page-break-inside: avoid !important;
-}
-
-.inri td {
-	padding-left: 2px;
-	padding-right: 10px;
-}
-
-*/
 .shadowed {
 	box-shadow: 7px 7px 7px -5px  rgba(50, 50, 50, 0.5);
 	}
@@ -560,11 +455,6 @@ hr {
 }
 
 
-.fambase {
-	width: 918px; 
-	padding: 16px; 
-	margin: 20px 0px 20px 0px;
-}
 
 .quote { /* larger green and framed */
 	font: 1.1em/1.6 "arial", sans-serif;
@@ -591,12 +481,12 @@ hr {
 	margin: 6px 60px 8px 20px; 
 	color: #587810;
 	}
-.qbr { /* low line break for quoting book texts */
-    height:1px;
-    width: 100%;
-    border:0; 
-    margin-top: 0.5em;
+.quo hr { /* for quoting book texts, low linebreak */
+	height: 0px;
+	margin-top: 0.5em;
     margin-bottom: 0px;
+    border: 0;
+    width: auto;
 	}
 
 /* image on left side of container, for text on right */
@@ -780,8 +670,6 @@ hr {
 .drop-content a:focus-within {
     background: #709030;
     color: white; 
-    /*background: #f4d35e;*/ /* Senf */
-    /*color: black;*/
 }
 
 
@@ -789,9 +677,6 @@ hr {
 	float: right;
 	margin: 3px 3px 6px 20px;
 	padding: 3px 12px;
-	/*margin-top: 5px;
-	margin-left: 20px;
-	padding: 3px 12px;*/
 }
 .b0 {
 	float: left;
