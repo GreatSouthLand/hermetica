@@ -274,9 +274,17 @@ b span {
 	margin-bottom: -4px;
 }
 
+
+
 .green {
 	color: #608010;
 }
+.dkgreen {
+	color: #507000;
+}
+
+
+
 
 h3 b, h4 b, h5 b, h6 b {
 	color: #80a040; /*green*/
