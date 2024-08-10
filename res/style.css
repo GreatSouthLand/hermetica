@@ -4,7 +4,7 @@ html > * {
 }
 
 body {
-	color: #4d5051;
+	color: #4d5051; /*mid grey*/
 	background-color: #d6d6d6;
 	background-image: url(top-rept.jpg);
 	background-repeat: repeat-x;
@@ -32,7 +32,7 @@ body {
 }
 .content {
 	width: calc(100% - 50px); /*940px;*/
-	background-color: #FFFFFF;
+	background-color: #FFFFFF; /*white*/
 	background-image: url(body-top.jpg);
 	background-repeat: no-repeat;
 	background-position: left top;
@@ -63,20 +63,20 @@ body {
 }
 .header-top h1 {
 	font:50px "Times New Roman", Times, serif;
-	color: #FFFFFF;
-	margin-left: 115px;
+	color: #FFFFFF; /*white*/
+	margin-left: 12%;  /*115px;*/
 	margin-top:10px;
 }
 .header-top h1 span {
-	color: #000000;
+	color: #000000; /*black*/
 }
 
 .header-top h1 a {
-	color: #FFFFFF;
+	color: #FFFFFF; /*white*/
 	text-decoration:none;
 }
 .header-top h1 span a {
-	color: #000000;
+	color: #000000; /*black*/
 	text-decoration:none;
 }
 .header-bottom {
@@ -88,23 +88,25 @@ body {
 }
 .header-bottom h2 {
 	font:24px/1.5 Arial, Helvetica, sans-serif;
-	color: #FFbb33;
+	color: #FFbb33; /*gold*/
 	margin-top: 92px;
 	margin-left: 27px;
 }
 .header-bottom h3 {
 	font:19px/1.5 Arial, Helvetica, sans-serif;
-	color: #FFbb33;
+	color: #FFbb33; /*gold*/
 	margin-top: 0px;
 	margin-left: 29px;
 }
 .header-bottom h5 {
 	font:4px/0.1 Arial, Helvetica, sans-serif;
-	color: #bb7700;
+	color: #bb7700; /*dark gold*/
 	margin-top: 30px;
 	margin-right: 29px;
 	text-align: right;
 }
+
+
 
 
 
@@ -122,12 +124,12 @@ body {
 }
 .footer p {
 	font-size: 11px;
-	color: #FFFFFF;
+	color: #FFFFFF; /*white*/
 	float: left;
 }
 .footer a {
 	font-size: 11px;
-	color: #FFFFFF;
+	color: #FFFFFF; /*white*/
 	text-decoration: none;
 }
 .footer a:hover {
@@ -242,7 +244,7 @@ h6 {
 	font-size: 115%;
 	margin-top: 15px;
 	margin-bottom: 12px;
-	color: #608010;
+	color: #608010; /*green*/
 }
 
 
@@ -252,46 +254,55 @@ h6 {
 
 b span {
 	font-size: 115%;
-	color: #608010;
+	color: #608010; /*green*/
 }
 
 .title {
 	font: 26px Arial, Helvetica, sans-serif;
-	color: #698919;
+	color: #608010; /*green  #698919*/
 	margin-bottom: 16px;
 	font-weight: 500;
 }
 
 .title2 {
 	font: 20px Arial, Helvetica, sans-serif;
-	color: #608010;
+	color: #608010; /*green*/
 	margin-bottom: -4px;
 }
 
 .title3 {
 	font: 60px Arial, Helvetica, sans-serif;
-	color: #608010;
+	color: #608010; /*green*/
 	margin-bottom: -4px;
 }
 
 
 
+
+.ltgreen {
+	color: #709030; /*light green*/
+}
 .green {
-	color: #608010;
+	color: #608010; /*green*/
+}
+.mdgreen {
+	color: #597909; /*mid green*/
 }
 .dkgreen {
-	color: #507000;
+	color: #507000; /*dark green*/
 }
-
+.vdgreen {
+	color: #406000; /*very dark green*/
+}
 
 
 
 h3 b, h4 b, h5 b, h6 b {
-	color: #80a040; /*green*/
+	color: #80a040; /*very light green*/
 }
 
 a, h2, h3 p, h4 p {
-	color: #709030;
+	color: #709030; /*light green*/
 }
 
 a {
@@ -299,7 +310,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-	color: #0055B8; /*dk blue*/
+	color: #0055B8; /*dark blue*/
 }
 
 
@@ -340,23 +351,23 @@ img.f-right {
 
 
 ul.list1 {
-	margin-top: 5px;
+	margin-top: 3px;
 	margin-left: 25px;
 	list-style-image: url(bullet.jpg);
 }
 ul.list1 li {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 
 .subtitle {
 	font:18px/1.5 Arial, Helvetica, sans-serif;
-	color: #171817;
+	color: #171817; /*very dark grey*/
 	margin-bottom: 10px;
 }
 .subtitle span {
-	color: #607e00;
+	color: #607e00; /*green*/
 }
 
 
@@ -386,15 +397,13 @@ table {
 	border:1px solid #DDD;
 	border-right:1px solid #CCC;
 	border-bottom:1px solid #CCC;
-	/*background-color:#EEE;*/
-	color:#406000; /*dk green*/
+	color:#406000; /*very dark green*/
 	background: linear-gradient(to bottom,  #f8f8f8,  #eee);
 }
 
 .more a:hover {
-	/*background-color:#FFF;*/
 	background: linear-gradient(to bottom,  #fff,  #eee);
-	color:#004B96;
+	color:#004B96; /*dark blue*/
 }
 
 img {
@@ -461,7 +470,7 @@ hr {
 
 /* green header text for boxes */
 .rbox h6 {
-	color: #709030;
+	color: #709030; /*mid green*/
 	padding-bottom:3px;
 	margin:0;
 	text-align:center;
@@ -470,7 +479,6 @@ hr {
 
 /* container boxes with outlines, placed center, left or right */
 .cbox, .lbox, .rbox, .lboxc, .rboxc, .row, .quote, .infobox {
-	/*page-break-inside: avoid !important;*/
 	background-color: #f8f8f8;
 	border: #d0d0d0 solid 1px;
 	padding: 4px 4px 4px 4px;
@@ -478,7 +486,6 @@ hr {
 }
 .cbox p, .lbox p, .rbox p, lboxc p, rboxc p {
 	padding: 0px 3px 3px 3px;
-	/*background: url(expand.gif) no-repeat top right;*/
 }
 .cbox img, .lbox img, .rbox img, lboxc img, rboxc img {
 	width: 100%;
@@ -509,7 +516,7 @@ hr {
 
 .quote { /* larger green and framed */
 	font: 1.1em/1.6 "arial", sans-serif;
-	color:#709030;
+	color:#709030;  /*light green*/
 	letter-spacing:1px;
 	padding:15px 25px 15px 15px;
 	}
@@ -530,7 +537,7 @@ hr {
 
 .quo { /* for quoting book texts */
 	margin: 6px 60px 8px 20px; 
-	color: #587810;
+	color: #587810; /*green*/
 	}
 .quo hr { /* for quoting book texts, low linebreak */
 	height: 0px;
@@ -637,7 +644,7 @@ hr {
 /* links inside the navbar */
 .navbar a {
 	float: left;
-	color:#406000;
+	color:#406000; /*very dark green*/
 	text-align: center;
 	text-decoration: none;
 	border-right:#91969a dotted 2px;
@@ -673,7 +680,7 @@ hr {
 .drop .drop-btn {
 	border: none;
 	outline: none;
-	color:#406000;
+	color:#406000; /*very dark green*/
 	background-color: inherit;
 	margin:0px; /* Important for vertical align on mobile phones */
 	font: inherit; /* Important for vertical align on mobile phones */
@@ -689,7 +696,7 @@ hr {
 .drop-content {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: #f9f9f9; /*grey*/
 	min-width: 120px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -746,7 +753,7 @@ hr {
 .b0, .b1 {
 	outline: none;
 	background-color:#EEE;
-	color:#406000; /*dk green*/
+	color:#406000; /*very dark green*/
 	box-shadow: 7px 7px 7px -5px  rgba(50, 50, 50, 0.5);
 	font: inherit;
 	border:1px solid #DDD;
@@ -831,7 +838,6 @@ hr {
 	bottom: 0;
 	overflow: auto;
 	background-color: rgba(0, 0, 0, 0.1);
-	/* display: flex;  to show */
 	display: none; /* hide initially*/
 	}
 .modal-img {
