@@ -351,13 +351,13 @@ img.f-right {
 
 
 ul.list1 {
-	margin-top: 3px;
+	margin-top: 2px;
 	margin-left: 25px;
 	list-style-image: url(bullet.jpg);
 }
 ul.list1 li {
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 
@@ -368,6 +368,13 @@ ul.list1 li {
 }
 .subtitle span {
 	color: #607e00; /*green*/
+}
+
+
+.twocolumns {
+	padding:10px;
+	column-count: 2;
+	column-gap: 10px;
 }
 
 
