@@ -208,6 +208,13 @@ table td {
     text-align: center;
     border-bottom: 1px solid #d0d0d0;
     }
+.malign td {
+    text-align: left;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 4px 10px 4px 10px;
+    }
+
+
     
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
