@@ -192,6 +192,11 @@ h6 span a {
     src: url('LiberationMono.ttf');
 }
 
+@font-face {
+    font-family: 'GoudyMedieval';
+    src: url('GoudyMedieval.ttf');
+}
+
 .astro span {
     font-family: 'Astronom', sans-serif;
     }
@@ -199,6 +204,12 @@ h6 span a {
 pre {
     font-family: 'LiberationMono';
 	}
+	
+.goudy span {
+    font-family: 'GoudyMedieval';
+    letter-spacing: .2rem;
+	}
+
 
 table td {
     padding: 0px 10px 0px 10px;
@@ -230,7 +241,7 @@ h1 {
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 220%;
 }
 
 h3 {
