@@ -707,6 +707,7 @@ hr {
 	/*font-size: max(1em, 12px);*/
 	/*font-size: clamp(1.5vw, 1em, 1em);*/
 	padding: 4px 10px;
+	font-size:16px !important;
 }
 
 /* drop button */
