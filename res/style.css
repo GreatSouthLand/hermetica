@@ -222,7 +222,7 @@ table td {
 .malign td {
     text-align: left;
     border-bottom: 1px solid #d0d0d0;
-    padding: 4px 10px 4px 10px;
+    padding: 4px 4px 4px 4px;
     }
 
 
@@ -262,15 +262,13 @@ h6 {
 	font-size: 115%;
 	margin-top: 15px;
 	margin-bottom: 12px;
-	color: #608010; /*green*/
+	color: #709030; /*light green*/
 }
 
 h4 span, h6 span {
 	font-size: 85%;
+	color: #80a040; /*very light green*/
 }
-
-
-
 
 b span {
 	font-size: 115%;
@@ -297,23 +295,6 @@ b span {
 }
 
 
-
-
-.ltgreen {
-	color: #709030; /*light green*/
-}
-.green {
-	color: #608010; /*green*/
-}
-.mdgreen {
-	color: #597909; /*mid green*/
-}
-.dkgreen {
-	color: #496900; /*dark green #507000*/
-}
-.vdgreen {
-	color: #406000; /*very dark green*/
-}
 
 
 
@@ -921,6 +902,33 @@ sup {
    width: 100%;
    height: 400px;
 }
+
+
+.ltgreen {
+	color: #709030; /*light green*/
+}
+.green {
+	color: #608010; /*green*/
+}
+.mdgreen {
+	color: #597909; /*mid green*/
+}
+.dkgreen {
+	color: #496900; /*dark green #507000*/
+}
+.vdgreen {
+	color: #406000; /*very dark green*/
+}
+.grey {
+	color: #4d5051; /*mid grey*/
+}
+.dkgrey {
+	color: #303030; /*dark grey*/
+}
+.black {
+	color: #000000; /*black*/
+}
+
 
 
  /* The navigation bar */
