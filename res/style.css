@@ -960,3 +960,12 @@ sup {
   background: #ddd;
   color: black;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+
