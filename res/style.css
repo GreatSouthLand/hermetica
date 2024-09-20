@@ -1,6 +1,6 @@
 
 html > * {
-	font:15px/1.4 "arial", sans-serif;
+	font: 16px/1.4 "arial", sans-serif;
 }
 
 body {
@@ -275,9 +275,15 @@ h4 span, h6 span {
 	color: #80a040; /*very light green*/
 }
 
+b {
+	opacity: 0.85;
+	font-weight: 600;
+}
+
 b span {
 	font-size: 115%;
 	color: #608010; /*green*/
+	opacity: 1.0;
 }
 
 .title {
@@ -305,6 +311,7 @@ b span {
 
 h3 b, h4 b, h5 b, h6 b {
 	color: #80a040; /*very light green*/
+	opacity: 1.0;
 }
 
 a, h2, h3 p, h4 p {
@@ -653,6 +660,7 @@ hr {
 	border-radius: 6px;
 	padding:0px;
 	margin-bottom: 1px;
+	/*font-size: 2vw;*/
 }
 
 /* last item without vertical bar
@@ -693,7 +701,8 @@ hr {
 	/*font-size: max(1em, 12px);*/
 	/*font-size: clamp(1.5vw, 1em, 1em);*/
 	padding: 4px 10px;
-	font-size:16px !important;
+	/*font-size:16px !important;*/
+	/*font-size: 4vw;*/
 }
 
 /* drop button */
@@ -935,5 +944,10 @@ sup {
 }
 
 
+@media only screen and (max-width: 1000px) {
+  navbar {
+    font-size: 4vw;
+  }
+}
 
 
